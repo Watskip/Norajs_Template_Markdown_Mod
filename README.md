@@ -38,8 +38,7 @@ but this line is the one
 that maybe seems important
 also THIS part only is good
 
-The rest is ok
-```
+The rest is ok```
 
 ```
 

@@ -1,6 +1,7 @@
 # Noraj's OSCP Report Template in Markdown with code block highlight
 It's noraj's modified templates but with support for code block highlighting
 
+## Requirements
 First get Stack with
 
 `curl -sSL https://get.haskellstack.org/ | sh`
@@ -19,6 +20,8 @@ stack install
 ```
 
 Add `/root/.local/bin` to your PATH
+
+## Hightlight Config
 
 On your MD file add the following headers
 ```
@@ -43,13 +46,15 @@ The rest is ok```
 ```
 
 The `2-2` will cause the whole 2nd line to be highlighted
+
 The `4:6-4:9` will cause the 4th line to be highlighted from the 6th character until the 9th
 
 
 
 
+## Report generation
 
-
+Same old way, just add `--filter pandoc-emphasize-code` in some point
 
 ```
 

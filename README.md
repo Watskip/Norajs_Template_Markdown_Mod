@@ -1,4 +1,4 @@
-# Offensive Security Exam Report Template in Markdown
+# Noraj's OSCP Report Template in Markdown with code block highlight
 It's noraj's modified templates but with support for code block highlighting
 
 First get Stack with
